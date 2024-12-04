@@ -1,15 +1,6 @@
 {
   "pins" : [
     {
-      "identity" : "wwnetworkmonitor",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/William-Weng/WWNetWorkMonitor",
-      "state" : {
-        "revision" : "a6dc7704d4ca851e461a18739e6774be070b8633",
-        "version" : "1.0.0"
-      }
-    },
-    {
       "identity" : "wwprint",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWPrint",
