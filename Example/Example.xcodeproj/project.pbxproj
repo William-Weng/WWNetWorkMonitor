@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8140A0242D0044B80099A510 /* WWNetWorkMonitor in Frameworks */ = {isa = PBXBuildFile; productRef = 8140A0232D0044B80099A510 /* WWNetWorkMonitor */; };
+		8140A0272D0047360099A510 /* WWNetWorkMonitor in Frameworks */ = {isa = PBXBuildFile; productRef = 8140A0262D0047360099A510 /* WWNetWorkMonitor */; };
+		8140A02A2D00479A0099A510 /* WWNetWorkMonitor in Frameworks */ = {isa = PBXBuildFile; productRef = 8140A0292D00479A0099A510 /* WWNetWorkMonitor */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
@@ -36,7 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8140A0242D0044B80099A510 /* WWNetWorkMonitor in Frameworks */,
+				8140A02A2D00479A0099A510 /* WWNetWorkMonitor in Frameworks */,
+				8140A0272D0047360099A510 /* WWNetWorkMonitor in Frameworks */,
 				818F57892D003CEE00772BEA /* WWNetWorkMonitor in Frameworks */,
 				8175681C2CA2C3C600B24577 /* WWPrint in Frameworks */,
 			);
@@ -135,7 +137,8 @@
 			packageProductDependencies = (
 				8175681B2CA2C3C600B24577 /* WWPrint */,
 				818F57882D003CEE00772BEA /* WWNetWorkMonitor */,
-				8140A0232D0044B80099A510 /* WWNetWorkMonitor */,
+				8140A0262D0047360099A510 /* WWNetWorkMonitor */,
+				8140A0292D00479A0099A510 /* WWNetWorkMonitor */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -167,7 +170,7 @@
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
 				8175681A2CA2C3C600B24577 /* XCRemoteSwiftPackageReference "WWPrint" */,
-				8140A0222D0044B80099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */,
+				8140A0282D00479A0099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -434,7 +437,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8140A0222D0044B80099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */ = {
+		8140A0282D00479A0099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWNetWorkMonitor";
 			requirement = {
@@ -453,9 +456,13 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8140A0232D0044B80099A510 /* WWNetWorkMonitor */ = {
+		8140A0262D0047360099A510 /* WWNetWorkMonitor */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8140A0222D0044B80099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */;
+			productName = WWNetWorkMonitor;
+		};
+		8140A0292D00479A0099A510 /* WWNetWorkMonitor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8140A0282D00479A0099A510 /* XCRemoteSwiftPackageReference "WWNetWorkMonitor" */;
 			productName = WWNetWorkMonitor;
 		};
 		8175681B2CA2C3C600B24577 /* WWPrint */ = {

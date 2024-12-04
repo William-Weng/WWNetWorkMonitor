@@ -31,9 +31,7 @@ public extension WWNetWorkMonitor {
     ///   - result: (NWPath) -> Void
     func start(for interfaceType: NWInterface.InterfaceType? = nil, queue: DispatchQueue = .global(), result: @escaping ((NWPath) -> Void)) {
         
-        monitor = monitorMakerForAll(queue: queue)
-        if let interfaceType = interfaceType { monitor = monitorMaker(queue: queue, forInterfaceType: interfaceType) }
-        
+        monitor = monitorMaker(queue: queue, forInterfaceType: interfaceType)
         monitor.start(queue: queue)
         monitor.pathUpdateHandler = { (path) in result(path) }
     }
